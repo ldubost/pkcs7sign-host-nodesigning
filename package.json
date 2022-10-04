@@ -1,0 +1,32 @@
+{
+    "name": "node-nativemessaging-pkcssignhost",
+    "version": "1.0",
+    "description": "Signing Node Handler for WebExtension",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ldubost/node-nativemessaging-pkcssignhost"
+    },
+    "license": "MIT",
+    "keywords": [
+        "sign",
+        "verify",
+        "node",
+        "nodejs",
+        "sign detached",
+        "pkcs7",
+        "pkcs#7",
+        "digital signature"
+    ],
+    "main": "handler.js",
+    "engines": {
+        "node": ">=8.9"
+    },
+    "scripts": {
+        "run": "node handler.js"
+    },
+    "dependencies": {
+        "chrome-native-messaging": "^0.2.0",
+        "graphene-pk11": "^2.3.2",
+        "node-forge": "^0.7.6"
+    }
+}

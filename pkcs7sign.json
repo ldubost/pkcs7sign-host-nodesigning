@@ -1,0 +1,9 @@
+{
+  "name": "pkcs7sign",
+  "description": "Native Messaging PKCS7Sign using hardware token",
+  "path": "/home/ludovic/dev/experiments/cryptpad/node-signpdf-pkcs11token/node-nativemessaging-pkcssignhost",
+  "type": "stdio",
+  "allowed_origins": [
+    "pkcs7sign@cryptpad.fr"
+  ]
+}
